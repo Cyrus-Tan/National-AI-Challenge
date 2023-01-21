@@ -14,6 +14,6 @@ for item in split_information:
             categories += "\n"
         categories += f"https://www.fairprice.com.sg{intermediate}"
 
-with open("links.txt", "w") as link_file:
+with open("categorylinks.txt", "w") as link_file:
     link_file.write(categories)
 
