@@ -1,4 +1,3 @@
-https://www.fairprice.com.sg/category/international-selections
 https://www.fairprice.com.sg/category/coles
 https://www.fairprice.com.sg/category/morrisons
 https://www.fairprice.com.sg/category/marks--spencer
@@ -86,7 +85,6 @@ https://www.fairprice.com.sg/category/vegetables
 https://www.fairprice.com.sg/category/health--wellness
 https://www.fairprice.com.sg/category/vitamins--supplements
 https://www.fairprice.com.sg/category/topical-medication
-https://www.fairprice.com.sg/category/children&#x27;s-health--supplements
 https://www.fairprice.com.sg/category/oral-medication
 https://www.fairprice.com.sg/category/sexual-health
 https://www.fairprice.com.sg/category/first-aid-1
