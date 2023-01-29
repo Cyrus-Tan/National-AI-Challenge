@@ -10,4 +10,6 @@ In Singapore, there is a huge issue of food waste with 26,000 tonnes of food bei
 <h3> 5: Items in the supermarket will be identified as comsumables when there is an expiry date tagged to the item in the database. </h3>
 <h3> 6: The app will keep track of the type, quantity, expiry date of the consumables each user have in his/her database. </h3>
 <h3> 7: Users are expected to manually 'delete' an item from the app when they have finished consuming it. </h3>
-<h>
+
+<h2> Challenges </h2>
+<h3> When scanning a receipt, the receipt may be creased/not taken at a top-down clear angle. As such, 
