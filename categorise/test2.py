@@ -1,6 +1,7 @@
 import pytesseract
 import argparse
 import imutils
+from imutils.perspective import four_point_transform
 import cv2
 import re
 
