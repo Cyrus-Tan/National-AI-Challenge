@@ -2,6 +2,8 @@ import os
 import time
 import pandas as pd
 import pickle
+from interfile.expiry import exp_dates
+from datetime import timedelta, date
 
 lst = os.listdir(os.getcwd() + '/input')
 number_files = len(lst)
@@ -44,4 +46,14 @@ loaded_vectorizer = pickle.load(open('interfile/vectorizer.pickle', 'rb'))
 loaded_model = pickle.load(open('interfile/classification.model', 'rb'))
 
 # make a prediction
-print(loaded_model.predict(loaded_vectorizer.transform(text)))
+catego = list(loaded_model.predict(loaded_vectorizer.transform(text)))
+today = date.today()
+
+with open("interfile/recognized.csv", "r") as csv_file:
+    lines2 = csv_file.readlines()
+
+for i in range(1, len(lines2)):
+    updated = lines2[i].rstrip("\n")
+    with open('information.csv', 'a') as information_file:
+        information_file.write(f"{updated}, {catego[i - 1]}, {date.strftime(today + timedelta(days=exp_dates[catego[i - 1]]), '%m/%d/%y')}\n")
+
