@@ -3,7 +3,7 @@ import pytesseract
 import argparse
 import imutils
 import cv2
-import re
+import os
 
 pytesseract.pytesseract.tesseract_cmd = '/opt/homebrew/bin/tesseract'
 
