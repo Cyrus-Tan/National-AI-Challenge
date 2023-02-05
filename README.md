@@ -19,3 +19,12 @@ In Singapore, there is a huge issue of food waste with 26,000 tonnes of food bei
   <li> Users of the app are expected to manually remove the consumable items in the app once they have finished consuming it at home. However, if users forget to update the quantity in the app, this will lead to inaccurate representation of the quantity of the item in the app. </li>
   <li> With a lack of data to train the model, the categorisation process of the model is slightly innaccurate </li>
 </ol>
+
+<h2> Languages and Library used </h2>
+<ol> 
+  <li> Python </li> 
+  <li> PeekingDuck </li>
+  <li> OpenCV </li>
+  <li> Pytesseract </li>
+  <li> ScikitLearn </li>
+</ol>
