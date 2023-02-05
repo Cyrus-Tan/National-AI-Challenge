@@ -18,3 +18,12 @@ In Singapore, there is a huge issue of food waste with 26,000 tonnes of food bei
   <li> When scanning a receipt, the receipt may be creased/not taken at a top-down clear angle. As such, contents of the receipt may not be identifiable. In future, we plan to leverage on page dewarping to flatten images of curled pages, improve optimisation.</li>
   <li> Users of the app are expected to manually remove the consumable items in the app once they have finished consuming it at home. However, if users forget to update the quantity in the app, this will lead to inaccurate representation of the quantity of the item in the app. </li>
 </ol>
+
+<h2> Languages and Library used </h2>
+<ol> 
+  <li> PeekingDuck </li>
+  <li> Python </li> 
+  <li> OpenCV </li>
+  <li> Pytesseract </li>
+  <li> ScikitLearn </li>
+</ol>
