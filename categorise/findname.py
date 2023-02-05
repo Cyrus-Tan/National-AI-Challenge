@@ -59,7 +59,7 @@ X = data['text']
 
 y = data['target']
 
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=123)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.1, random_state=123)
 
 print('Training Data :', X_train.shape)
 
@@ -78,22 +78,5 @@ model2 = lr.fit(X_train_cv, y_train)
 vec_file = 'vectorizer.pickle'
 pickle.dump(cv, open(vec_file, 'wb'))
 
-# filename = 'finalized_model.sav'
-# joblib.dump(lr, filename)
-
-# X_test_cv = cv.transform(X_test)
-# print(cv)
-
 mod_file = 'classification.model'
 pickle.dump(model2, open(mod_file, 'wb'))
-
-# loaded_model = joblib.load("finalized_model.sav")
-#
-# data1 = pd.read_csv('../scrape/test.csv')
-#
-# text = list(data1['text'])
-#
-# X_test_cv = cv.transform(text)
-#
-# result = loaded_model.predict(X_test_cv)
-# print(result)
