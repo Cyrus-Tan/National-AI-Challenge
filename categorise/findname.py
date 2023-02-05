@@ -1,29 +1,16 @@
 import pandas as pd
-import numpy as np
 
 import re, string
-import nltk
-from nltk.tokenize import word_tokenize
 from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
-from nltk.stem import SnowballStemmer
-from nltk.corpus import wordnet
-from nltk.stem import WordNetLemmatizer
 from nltk.stem import WordNetLemmatizer
 
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
-from sklearn.naive_bayes import MultinomialNB
-from sklearn.metrics import classification_report, f1_score, accuracy_score, confusion_matrix
-from sklearn.metrics import roc_curve, auc, roc_auc_score
-
-from sklearn.feature_extraction.text import TfidfVectorizer
-from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.feature_extraction.text import CountVectorizer
 
 import pickle
 
-data = pd.read_csv('../scrape/info.csv')
+data = pd.read_csv('../scrape/info2.csv')
 
 data['target'].value_counts(normalize = True).plot.bar()
 
