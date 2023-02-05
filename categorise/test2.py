@@ -10,7 +10,7 @@ ap.add_argument("-i", "--image", required=True,
 ap.add_argument("-d", "--debug", type=int, default=-1,
 	help="whether or not we are visualizing each step of the pipeline")
 args = vars(ap.parse_args())
-orig = cv2.imread("receipt_NTUC.jpg")
+orig = cv2.imread("../readreceipt/IMG_6547.JPG")
 image = orig.copy()
 image = imutils.resize(image, width=500)
 ratio = orig.shape[1] / float(image.shape[1])
