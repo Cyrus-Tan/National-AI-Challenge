@@ -21,8 +21,8 @@ In Singapore, there is a huge issue of food waste with 26,000 tonnes of food bei
 
 <h2> Languages and Library used </h2>
 <ol> 
-  <li> PeekingDuck </li>
   <li> Python </li> 
+  <li> PeekingDuck </li>
   <li> OpenCV </li>
   <li> Pytesseract </li>
   <li> ScikitLearn </li>
